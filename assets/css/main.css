@@ -214,6 +214,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		h1.minor {
+			margin: 0 0 0 0;
+		}
+
 	h2 {
 		font-size: 1.75em;
 	}
@@ -222,6 +226,29 @@ input, select, textarea {
 		font-size: 1.1em;
 	}
 
+			h3.major {
+				margin: 0 0 1.3em 0;
+				position: relative;
+				padding-bottom: 0.35em;
+			}
+
+				h3.major:after {
+					background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+					background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+					background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+					background-image: linear-gradient(to right, #5e42a6, #b74e91);
+					-moz-transition: max-width 0.2s ease;
+					-webkit-transition: max-width 0.2s ease;
+					-ms-transition: max-width 0.2s ease;
+					transition: max-width 0.2s ease;
+					border-radius: 0.2em;
+					bottom: 0;
+					content: '';
+					height: 0.15em;
+					position: absolute;
+					right: 0;
+					width: 100%;
+				}
 	h4 {
 		font-size: 1em;
 	}
