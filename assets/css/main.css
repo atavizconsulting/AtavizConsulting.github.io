@@ -1270,15 +1270,13 @@ input[type="radio"] + label:before {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    height: auto;
-    max-height: 80vh }
+    height: auto; }
     .image.screen img {
       display: block;
       margin-left: auto;
       margin-right: auto;
       max-width: 100%; 
-      height: auto;
-      max-height: 80vh; }
+      height: auto; }
   .image.main {
     display: block;
     margin: 0 0 3em 0;
