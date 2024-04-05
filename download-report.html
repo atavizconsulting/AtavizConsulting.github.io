@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YV22NRCB58"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-YV22NRCB58');
+		</script>
+			
+		<!-- Meta Properties -->
+		<meta name="description" content="Ataviz Consulting provides industry-specific data analytics solutions for small businesses. Optimize operations, enhance customer experience, and drive growth with our customized packages. Contact us for personalized solutions.">
+		<meta name="keywords" content="data analytics, consulting, business intelligence, data science, Ataviz Consulting">
+	
+		<meta property="og:title" content="Data Analytics Solutions - Ataviz Consulting"/>
+		<meta property="og:image" content="https://www.atavizconsulting.com/images/socialmedialogo.png"/>
+		<meta property="og:description" content="Ataviz Consulting provides industry-specific data analytics solutions for small businesses. Optimize operations, enhance customer experience, and drive growth with our customized packages. Contact us for personalized solutions."/>
+		<meta property="og:url" content="http://www.atavizconsulting.com/solutions.html"/>
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="627" />
+		<meta property="og:type" content="website" />
+		<!-- End Meta Properties -->
+
+		<title>Data Analytics Solutions - Ataviz Consulting</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<script src="assets/js/featured-news.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><img src="images/bannerlogo.png" width="200" alt=""></a>
+									<ul class="icons">
+										<li><a href="https://www.facebook.com/atavizconsulting" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://twitter.com/AtavizConsult" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.instagram.com/atavizconsulting/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.linkedin.com/company/ataviz-consulting/" class="icon brands fa-linkedin-in"><span class="label">Instagram</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Customer Segmentation Sample Report</h1>
+									</header>
+
+									<span class="image main"><img src="images/segmentation-big.jpg" alt="" /></span>
+
+									<h2>Please fill out this form to download the free Customer Segmentation Sample Report</h2>
+									
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+											<h3>Download Form</h3>
+								
+											<form id="myForm" method="POST" action="https://script.google.com/macros/s/AKfycbz_pqna-R2buJvgapgBx5RyjMnKBg1Xg_LdmgxmS5oFOAv8iMDL0viRY49jpiaseYOW/exec" onsubmit="return submitForm()">
+												<div class="row gtr-uniform">
+													<div class="col-12">
+														<input type="text" name="Name" id="name" value="" placeholder="Name" required/>
+													</div>
+													<!-- Break -->
+													<div class="col-12">
+														<input type="email" name="Email" id="email" value="" placeholder="Email" required/>
+													</div>
+													<!-- Break -->
+													<div class="col-12">
+														<ul class="actions">
+															<li><input type="submit" value="Download File" class="primary" /></li>
+															<li><input type="reset" value="Reset" /></li>
+														</ul>
+													</div>
+												</div>
+											</form>
+
+											<script>
+												function submitForm() {
+													// Perform any form validation here if needed
+													// For simplicity, assuming the form is always valid
+											
+													// Redirect to a specific URL upon successful submission
+													fetch('https://script.google.com/macros/s/AKfycbz_pqna-R2buJvgapgBx5RyjMnKBg1Xg_LdmgxmS5oFOAv8iMDL0viRY49jpiaseYOW/exec', {
+														method: 'POST',
+														body: new FormData(document.getElementById('myForm'))
+													})
+													.then(response => {
+														if (response.ok) {
+															window.location.href = "https://drive.google.com/file/d/132YB__zkk7rUqPebf_k1fz7G3H4lVLJd/view?usp=drive_link";
+														} else {
+															// Handle errors here if needed
+															console.error('Form submission failed:', response.statusText);
+														}
+													})
+													.catch(error => {
+														// Handle network errors here if needed
+														console.error('Error submitting form:', error);
+													});
+											
+													return false; // Prevent default form submission
+												}
+											</script>
+
+										</div>
+
+										<div class="col-6 col-12-medium">
+											<span class="image main">
+												<img src="images/cust-seg-sample.png" alt="" />
+											</span>
+										</div>
+
+									</div>
+										
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+							<nav id="menu">
+								<header class="major">
+									<a href="index.html" class="image"><img src="images/mainlogo.png" alt="" width="288"/></a>
+									<p></p>
+									<h2>Menu</h2>
+								</header>
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="solutions.html">Solutions</a></li>
+									<li><a href="services.html">Data Services</a></li>
+									<li><a href="case-studies.html">Case Studies</a></li>
+									<li><a href="projects.html">Public Projects</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="news.html">News</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+
+						<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Featured News</h2>
+								</header>
+								<div class="mini-posts" id="featuredArticles">
+									
+								</div>
+								<ul class="actions">
+									<li><a href="news.html" class="button">More News</a></li>
+								</ul>
+							</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contact Us</h2>
+									</header>
+									<p>Please contact us with any questions or to set up a free consultation.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:njohnson@atavizconsulting.com">NJohnson@AtavizConsulting.com</a></li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Ataviz Consulting. All rights reserved. <br>Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
