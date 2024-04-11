@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YV22NRCB58"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-YV22NRCB58');
+		</script>
+			
+		<!-- Meta Properties -->
+		<meta name="description" content="Ataviz Consulting provides industry-specific data analytics solutions for small businesses. Optimize operations, enhance customer experience, and drive growth with our customized packages. Contact us for personalized solutions.">
+		<meta name="keywords" content="data analytics, consulting, business intelligence, data science, Ataviz Consulting">
+	
+		<meta property="og:title" content="Product Catalog - Data Analytics Solutions and Consulting - Ataviz Consulting"/>
+		<meta property="og:image" content="https://www.atavizconsulting.com/images/socialmedialogo.png"/>
+		<meta property="og:description" content="Ataviz Consulting provides industry-specific data analytics solutions for small businesses. Optimize operations, enhance customer experience, and drive growth with our customized packages. Contact us for personalized solutions."/>
+		<meta property="og:url" content="http://www.atavizconsulting.com/products.html"/>
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="627" />
+		<meta property="og:type" content="website" />
+		<!-- End Meta Properties -->
+
+		<title>Data Product Catalog - Ataviz Consulting</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<script src="assets/js/featured-news.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><img src="images/bannerlogo.png" width="200" alt=""></a>
+									<ul class="icons">
+										<li><a href="https://www.facebook.com/atavizconsulting" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://twitter.com/AtavizConsult" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.instagram.com/atavizconsulting/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.linkedin.com/company/ataviz-consulting/" class="icon brands fa-linkedin-in"><span class="label">Instagram</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Product Catalog</h1>
+									</header>
+
+									<span class="image main"><img src="images/products.jpg" alt="" /></span>
+
+									<section>
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall">
+												<label for="search">Search:</label>
+												<input type="text" id="search" placeholder="Search by title or description">
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<label for="sort">Sort by:</label>
+												<select id="sort">
+													<option value="date-newest">Release Date (Newest to Oldest)</option>
+													<option value="date-oldest">Release Date (Oldest to Newest)</option>
+													<option value="title-asc">Product Name (A-Z)</option>
+													<option value="title-desc">Product Name (Z-A)</option>
+												</select>
+											</div>
+										</div>
+										
+										<p></p>
+
+										<div class="table-wrapper">
+											<table id="myTable">
+												<thead>
+													<tr>
+														<th>Product Name</th>
+														<th>Description</th>
+														<th>Release Date</th>
+														<th>Actions</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>
+															<a href="segmentation.html"><span class="image left"><img src="images/products-segmentation.png" alt="" /></span> <b>Customer Segmentaton Reports and RFM Analysis</b></a>
+														</td>
+														<td>Explore our innovative solution, Customer Segmentation Reports and RFM Analysis, to gain profound insights into customer behavior for personalized marketing, improved retention, and optimized resource allocation. Our advanced analytics and machine learning expertise deliver actionable insights, empowering informed decisions that drive growth, enhance customer experiences, and maximize ROI.</td>
+														<td>2024-04-08</td>
+														<td>
+															<div class="actions">
+																<a href="segmentation.html" class="button">Learn More</a>
+															</div>
+													</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="atahoopz-analytics.html"><span class="image left"><img src="images/products-atahoopz.jpg" alt="" /></span> <b>AtaHoopz Analytics - Custom Basketball Dashboards</b></a>
+														</td>
+														<td>AtaHoopz Analytics redefines basketball through innovative web-based dashboards, delivering cutting-edge insights and customizable tools without subscription fees. Dive deep into player performance, strategic planning, and game dynamics to elevate your team's game, achieve unparalleled success, and revolutionize your approach to the game.</td>
+														<td>2024-03-19</td>
+														<td>
+															<div class="actions">
+																<a href="atahoopz-analytics.html" class="button">Learn More</a>
+															</div>
+														</td>
+													</tr>
+													
+												</tbody>
+											</table>
+										</div>
+										
+										<script>
+											document.addEventListener('DOMContentLoaded', function () {
+												var sortDropdown = document.getElementById('sort');
+												var searchInput = document.getElementById('search');
+												var table = document.getElementById('myTable');
+												var tbody = table.querySelector('tbody');
+												var rows = tbody.getElementsByTagName('tr');
+										
+												function sortTable(columnIndex, sortOrder) {
+													var rowsArray = Array.from(rows);
+													rowsArray.sort(function (a, b) {
+														var textA = a.getElementsByTagName('td')[columnIndex].textContent.trim().toLowerCase();
+														var textB = b.getElementsByTagName('td')[columnIndex].textContent.trim().toLowerCase();
+														if (sortOrder === 'asc') {
+															return textA.localeCompare(textB);
+														} else {
+															return textB.localeCompare(textA);
+														}
+													});
+													rowsArray.forEach(function (row) {
+														tbody.appendChild(row);
+													});
+												}
+										
+												sortDropdown.addEventListener('change', function () {
+													var columnIndex = 2; // Default to sorting by title
+													var sortOrder = 'desc'; // Default to ascending order
+													var sortValue = this.value;
+													if (sortValue === 'title-asc') {
+														columnIndex = 0;
+														sortOrder = 'asc';
+													} else if (sortValue === 'title-desc') {
+														columnIndex = 0;
+														sortOrder = 'desc';
+													} else if (sortValue === 'date-newest') {
+														columnIndex = 2;
+														sortOrder = 'desc';
+													} else if (sortValue === 'date-oldest') {
+														columnIndex = 2;
+														sortOrder = 'asc';
+													}
+													sortTable(columnIndex, sortOrder);
+												});
+										
+												searchInput.addEventListener('keyup', function () {
+													var filter = this.value.toLowerCase();
+													Array.from(rows).forEach(function (row) {
+														var title = row.getElementsByTagName('td')[0].textContent.toLowerCase();
+														var description = row.getElementsByTagName('td')[1].textContent.toLowerCase();
+														if (title.indexOf(filter) > -1 || description.indexOf(filter) > -1) {
+															row.style.display = '';
+														} else {
+															row.style.display = 'none';
+														}
+													});
+												});
+											});
+										</script>
+									</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+							<nav id="menu">
+								<header class="major">
+									<a href="index.html" class="image"><img src="images/mainlogo.png" alt="" width="288"/></a>
+									<p></p>
+									<h2>Menu</h2>
+								</header>
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="solutions.html">Data Solutions</a></li>
+									<li><a href="products.html">Product Catalog</a></li>
+									<li><a href="projects.html">Public Projects</a></li>
+									<li><a href="news.html">News</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+
+						<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Featured News</h2>
+								</header>
+								<div class="mini-posts" id="featuredArticles">
+									
+								</div>
+								<ul class="actions">
+									<li><a href="news.html" class="button">More News</a></li>
+								</ul>
+							</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contact Us</h2>
+									</header>
+									<p>Please contact us with any questions or to set up a free consultation.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:njohnson@atavizconsulting.com">NJohnson@AtavizConsulting.com</a></li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Ataviz Consulting. All rights reserved. <br>Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
