@@ -47,20 +47,15 @@
 						<div class="inner">
 
 							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><img src="images/bannerlogo.png" width="200" alt=""></a>
-									<ul class="icons">
-										<li><a href="https://www.patreon.com/c/YourHiddenCTO" class="icon brands fa-patreon"><span class="label">Patreon</span></a></li>
-										<li><a href="https://www.facebook.com/atavizconsulting" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<!--<li><a href="https://twitter.com/AtavizConsult" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
-										<li><a href="https://www.instagram.com/atavizconsulting/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="https://www.linkedin.com/company/ataviz-consulting/" class="icon brands fa-linkedin-in"><span class="label">Instagram</span></a></li>
-									</ul>
-								</header>
+								
 
 							<!-- Content -->
 								<section>
 									<header class="main">
+										<span class="image main"><img src="images/decoded-main.png" alt="" /></span>
+
+										<hr class="major" />
+										
 										<h1>The State of Data in 2025: <br/>
 											What Businesses Need to Know Now</h1>
 									</header>
@@ -161,6 +156,7 @@
 																<li><input type="submit" value="Subscribe" class="primary" /></li>
 																<li><input type="reset" value="Reset" /></li>
 															</ul>
+															<div id="formMessage" style="display: none; margin-top: 10px; color: green; font-weight: bold;"></div>
 														</div>
 													</div>
 											</div>
@@ -178,8 +174,15 @@
 													})
 													.then(response => {
 														if (response.ok) {
-															window.location.href = "https://drive.google.com/file/d/132YB__zkk7rUqPebf_k1fz7G3H4lVLJd/view?usp=drive_link";
-														} else {
+																// Show success message instead of redirecting
+																const messageDiv = document.getElementById('formMessage');
+																if (messageDiv) {
+																	messageDiv.innerText = "✅ Successfully Subscribed!";
+																	messageDiv.style.display = 'block';
+																}
+																// Optionally clear the form
+																document.getElementById('myForm').reset();
+															} else {
 															// Handle errors here if needed
 															console.error('Form submission failed:', response.statusText);
 														}
