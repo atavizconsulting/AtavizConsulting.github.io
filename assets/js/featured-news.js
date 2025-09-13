@@ -2,34 +2,54 @@
 document.addEventListener("DOMContentLoaded", function () {
     const articles = [
         {
-            url: "opendataday.html",
-            imageSrc: "images/news-opendataday.png",
-            content: "At Syracuse Open Data Day 2023, Nick Johnson from Ataviz Consulting presented 'Visualizing Public Art Data with Tableau,' empowering participants to bridge technology and culture through data visualizations."
+            url: "blog-the-state-of-data-in-2025.html",
+            imageSrc: "images/blog1.png",
+            content: "From AI going mainstream to dashboards evolving into decision-making tools, this 2025 snapshot breaks down the six biggest trends shaping how smart companies are using data to win."
         },
         {
-            url: "https://public.tableau.com/app/profile/ncjohnson315/viz/UpstateTrojansBasketballDashboard/PlayerDashboard",
-            imageSrc: "images/news-upstatetrojans.png",
-            content: "Ataviz Consulting is excited to announce their role as the official statistics and analytics provider for the Upstate Trojans, a new ABA basketball team, leveraging data-driven expertise to contribute to their on-court success."
+            url: "blog-what-to-fix-first.html",
+            imageSrc: "images/blog2.png",
+            content: "A practical, no-fluff guide to help businesses identify and prioritize their most critical tech fixes using a simple triage framework."
         },
         {
-            url: "https://magazine.cioreview.com/magazines/July2023/Predictive_Analytics/?digitalmagazine",
-            imageSrc: "images/news-cioreview.png",
-            content: "Ataviz Consulting is proud to announce our recognition as one of the Top 10 Predictive Analytics Solutions Providers 2023 by CIOReview Magazine."
+            url: "blog-data-driven-company.html",
+            imageSrc: "images/blog3.png",
+            content: "Learn how small and mid-sized companies can make smarter decisions using data—without needing a dedicated data team."
         },
         {
-            url: "https://www.youtube.com/watch?v=wfi1zKLSfYE",
-            imageSrc: "images/news-cnyconversations.png",
-            content: "Ataviz Consulting's founder, Nick Johnson, discusses the impact of data analytics on business success and the transformative role of Chat-GPT in the world on the CNY Conversations Podcast."
+            url: "blog-behind-the-buzzwords.html",
+            imageSrc: "images/blog4.png",
+            content: "Helping business leaders cut through tech buzzwords and make smarter decisions with data, automation, cloud, and strategy."
         },
         {
-            url: "https://the-atlas.com/projects/syracuse-data-challenge-open-source-data-portal",
-            imageSrc: "images/news-theatlas.png",
-            content: "Nick Johnson's win in the Inaugural Syracuse Data Challenge fueled citizen innovation, heightened the city's open data portal awareness, and boosted public engagement for societal benefits."
+            url: "blog-ai-agent-isnt-coming-for-your-job.html",
+            imageSrc: "images/blog5.png",
+            content: "A sharp, no-fluff breakdown of why AI isn’t your biggest threat, but the people using it better than you are, and how to stay competitive in 2025."
         },
         {
-            url: "https://data.syr.gov/pages/41a3b41603284f93980c609a5474182f",
-            imageSrc: "images/news-syracusedatachallenge.png",
-            content: "We are thrilled to announce that our very own founder, Nick Johnson, has been selected as the first-ever Syracuse Data Challenge winner by the City of Syracuse!"
+            url: "blog-legacy-system-nightmare.html",
+            imageSrc: "images/blog6.png",
+            content: "A simple home plumbing fix turns into a powerful lesson on the hidden costs of legacy systems and why technical debt can’t be ignored."
+        },
+        {
+            url: "blog-single-source-of-truth.html",
+            imageSrc: "images/blog7.png",
+            content: "A candid look at why building a “single source of truth” in data is harder than it sounds—and what it really takes to align teams, clean context, and earn trust in your numbers."
+        },
+        {
+            url: "blog-tech-stack-graveyard.html",
+            imageSrc: "images/blog8.png",
+            content: "An honest look at why companies keep wasting money on the wrong tech tools, and a practical framework to finally get it right."
+        },
+        {
+            url: "blog-2035-playbook.html",
+            imageSrc: "images/blog9.png",
+            content: "Discover how 2035 leaders will thrive by mastering adaptability, ethics, and the human side of tech-driven change."
+        },
+        {
+            url: "blog-inbound-2025.html.html",
+            imageSrc: "images/blog10.png",
+            content: "INBOUND 2025 revealed that the real future isn’t just AI 2.0, but a world where continuous change management, system-wide optimization, and human-machine symbiosis redefine how businesses operate."
         }
     ];
 
