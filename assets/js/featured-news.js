@@ -47,9 +47,14 @@ document.addEventListener("DOMContentLoaded", function () {
             content: "Discover how 2035 leaders will thrive by mastering adaptability, ethics, and the human side of tech-driven change."
         },
         {
-            url: "blog-inbound-2025.html.html",
+            url: "blog-inbound-2025.html",
             imageSrc: "images/blog10.png",
             content: "INBOUND 2025 revealed that the real future isn’t just AI 2.0, but a world where continuous change management, system-wide optimization, and human-machine symbiosis redefine how businesses operate."
+        },
+        {
+            url: "blog-bad-integrations.html",
+            imageSrc: "images/blog11.png",
+            content: "AI can’t fix fractured data and disconnected tools. True efficiency and competitive advantage come from seamless system integrations that turn chaos into clarity."
         }
     ];
 
