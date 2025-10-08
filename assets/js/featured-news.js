@@ -55,6 +55,11 @@ document.addEventListener("DOMContentLoaded", function () {
             url: "blog-bad-integrations.html",
             imageSrc: "images/blog11.png",
             content: "AI can’t fix fractured data and disconnected tools. True efficiency and competitive advantage come from seamless system integrations that turn chaos into clarity."
+        },
+        {
+            url: "blog-ai-carbon-footprint.html",
+            imageSrc: "images/blog12.png",
+            content: "We break down AI’s true environmental impact, separating training costs from everyday use, and shows how innovation is driving a more sustainable, efficient future."
         }
     ];
 
