@@ -60,6 +60,11 @@ document.addEventListener("DOMContentLoaded", function () {
             url: "blog-ai-carbon-footprint.html",
             imageSrc: "images/blog12.png",
             content: "We break down AI’s true environmental impact, separating training costs from everyday use, and shows how innovation is driving a more sustainable, efficient future."
+        },
+        {
+            url: "blog-social-engineering-ai.html",
+            imageSrc: "images/blog13.png",
+            content: "Learn how “social engineering” AI through smart framing and psychological prompts can transform basic chatbot replies into deeper, more creative, and more human-like insights."
         }
     ];
 
