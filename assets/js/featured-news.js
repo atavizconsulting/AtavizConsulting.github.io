@@ -65,6 +65,11 @@ document.addEventListener("DOMContentLoaded", function () {
             url: "blog-social-engineering-ai.html",
             imageSrc: "images/blog13.png",
             content: "Learn how “social engineering” AI through smart framing and psychological prompts can transform basic chatbot replies into deeper, more creative, and more human-like insights."
+        },
+        {
+            url: "blog-most-expensive-system.html",
+            imageSrc: "images/blog14.png",
+            content: "Most companies obsess over software costs while ignoring the invisible system of manual processes and tribal knowledge that quietly drains efficiency, increases risk, and blocks true optimization."
         }
     ];
 
