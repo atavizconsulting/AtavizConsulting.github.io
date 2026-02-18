@@ -70,6 +70,11 @@ document.addEventListener("DOMContentLoaded", function () {
             url: "blog-most-expensive-system.html",
             imageSrc: "images/blog14.png",
             content: "Most companies obsess over software costs while ignoring the invisible system of manual processes and tribal knowledge that quietly drains efficiency, increases risk, and blocks true optimization."
+        },
+        {
+            url: "blog-automation-for-small-teams.html",
+            imageSrc: "images/blog15.png",
+            content: "A practical, future-focused guide for small teams on eliminating manual busywork through smart automation — freeing up time for growth, strategy, and better customer experiences."
         }
     ];
 
